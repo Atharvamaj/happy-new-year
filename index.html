@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Happy New Year 🎉</title>
+  <title>Happy New Year</title>
 
   <style>
     body {
@@ -72,13 +72,12 @@
 </head>
 <body>
 
-  <h1>🎉 Happy New Year 🎉</h1>
+  <h1>Happy New Year</h1>
 
   <button id="soundBtn">
     To hear a special message, click here
   </button>
 
-  <!-- ✅ FIXED: single src + GitHub Pages–safe Cloudinary MP4 -->
   <video id="rickVideo" controls playsinline>
     <source
       src="https://res.cloudinary.com/drehfy7ui/video/upload/f_mp4/vid_iaczm1.mp4"
@@ -93,20 +92,14 @@
     const button = document.getElementById("soundBtn");
     const caption = document.getElementById("caption");
 
-    // Button click = valid user gesture → autoplay with sound
     button.addEventListener("click", () => {
       video.style.display = "block";
       video.classList.add("show");
       video.muted = false;
-
-      video.play().catch(err => {
-        console.log("Playback blocked:", err);
-      });
-
+      video.play().catch(() => {});
       button.style.display = "none";
     });
 
-    // Caption appears ONLY when video actually starts playing
     video.addEventListener("playing", () => {
       caption.style.opacity = 1;
     });
