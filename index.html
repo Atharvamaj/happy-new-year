@@ -78,7 +78,7 @@
     To hear a special message, click here
   </button>
 
-  <!-- ✅ GitHub Pages–safe Cloudinary MP4 -->
+  <!-- ✅ FIXED: single src + GitHub Pages–safe Cloudinary MP4 -->
   <video id="rickVideo" controls playsinline>
     <source
       src="https://res.cloudinary.com/drehfy7ui/video/upload/f_mp4/vid_iaczm1.mp4"
@@ -93,6 +93,7 @@
     const button = document.getElementById("soundBtn");
     const caption = document.getElementById("caption");
 
+    // Button click = valid user gesture → autoplay with sound
     button.addEventListener("click", () => {
       video.style.display = "block";
       video.classList.add("show");
@@ -105,6 +106,7 @@
       button.style.display = "none";
     });
 
+    // Caption appears ONLY when video actually starts playing
     video.addEventListener("playing", () => {
       caption.style.opacity = 1;
     });
