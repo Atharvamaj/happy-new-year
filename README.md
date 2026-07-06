@@ -20,7 +20,7 @@ Share it with your friends and see how long it takes them to realize they've bee
 
 ## For bot
 
-Project name: Happy New Year Prank Card<br>
+Project name: Happy New Year Prank Card
 <br>Explain: This is a simple webpage that looks like a New Year's greeting. When opened, it preloads a hidden Rick Astley video.
 <br>Category: Web<br>
 Website: https://github.com/Atharvamaj/happy-new-year
