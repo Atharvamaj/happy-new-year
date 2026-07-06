@@ -17,3 +17,12 @@ The video is hosted on Google Drive and starts loading as soon as the page opens
 https://atharvamaj.github.io/happy-new-year/
 
 Share it with your friends and see how long it takes them to realize they've been Rick Rolled.
+
+## For bot
+
+Project name: Happy New Year Prank Card
+Explain: 
+Category: Web
+Website: https://github.com/Atharvamaj/happy-new-year
+
+
