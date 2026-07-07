@@ -26,6 +26,5 @@ Explain: This is a simple webpage that looks like a New Year's greeting. When op
 
 Category: Web
 
-Website: https://github.com/Atharvamaj/happy-new-year
-
+Website: https://atharvamaj.github.io/happy-new-year/
 
